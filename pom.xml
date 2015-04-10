@@ -9,7 +9,7 @@
   <url>http://geomati.co</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <geotools.version>8-SNAPSHOT</geotools.version>
+    <geotools.version>8.0</geotools.version>
   </properties>
   <dependencies>
     <dependency>
