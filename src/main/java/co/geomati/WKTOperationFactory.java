@@ -6,7 +6,6 @@ package co.geomati;
 
 import java.net.URL;
 import org.geotools.referencing.factory.epsg.CoordinateOperationFactoryUsingWKT;
-import org.geotools.referencing.factory.gridshift.DataUtilities;
 import org.opengis.referencing.operation.CoordinateOperationAuthorityFactory;
 
 /**

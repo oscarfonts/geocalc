@@ -3,7 +3,7 @@ Geocalc
 
 Geodetic Calculator based on GeoTools 15.1 (needs Java 8).
 
-Includes spanish NTv2 Grid Shift for accurate conversion from ED50 to ETRS89 and WGS84.
+Includes catalan NTv2 Grid Shift for accurate conversion from ED50 to ETRS89 and WGS84.
 
 Building
 --------

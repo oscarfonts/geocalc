@@ -60,7 +60,7 @@ public class Geocalc {
 			System.out.println("  Geocalc EPSG:23031 EPSG:4326 438000 4642000");
 			System.out.println("");
 			System.out.println("Resultado esperado:");
-			System.out.println("  2.251112 41.925679");
+			System.out.println("  2.251109,41.925679");
 		} else {
 			/* Transforma según los parámetros entrados */
 			double[] result = transform2DPoint(args[0], args[1], Double.parseDouble(args[2]), Double.parseDouble(args[3]));
