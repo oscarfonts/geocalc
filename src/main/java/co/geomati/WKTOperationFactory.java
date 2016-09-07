@@ -30,11 +30,6 @@ public class WKTOperationFactory extends CoordinateOperationFactoryUsingWKT
      */
     protected URL getDefinitionsURL() {
         URL location = getClass().getResource(definitions);
-        //if (DataUtilities.urlToFile(location).exists()) {
-            return location;
-        //} else {
-        //    LOGGER.severe(definitions + " resource was not found");
-        //    return null;
-        //}
+        return location;
     }
 }

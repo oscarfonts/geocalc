@@ -28,14 +28,6 @@ public class Geocalc {
 		DirectPosition srcPoint = new DirectPosition2D(x, y);
 		DirectPosition dstPoint = new DirectPosition2D();
 		transform.transform(srcPoint, dstPoint);
-
-		/*
-		System.out.println(fromEPSG + " => " + toEPSG);
-		System.out.println(transform.toString());
-		System.out.println("");
-		System.out.println(srcPoint + " => " + dstPoint);
-		System.out.println("");
-		*/
 		
 		return dstPoint.getCoordinate();
 	}
